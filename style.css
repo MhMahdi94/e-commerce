@@ -1,6 +1,40 @@
 div.section-1 {
-  background-color: #eceeef;
+  background-color: white;
   width: 100%;
+}
+
+div.container-fluid {
+  background-color: white;
+}
+
+div.sec-1 {
+  background-color: white;
+}
+
+div.jumbotron {
+  background-color: white;
+}
+
+h1.display-3 {
+  font-size: 92px;
+}
+
+div.about {
+  text-align: center;
+  background-color: white;
+}
+
+p.lead {
+  font-size: 36px;
+  font-style: italic;
+}
+
+p.intro {
+  font-size: 24px;
+}
+
+div.logo {
+  margin-top: 35px;
 }
 
 div.sign-btn {
@@ -60,4 +94,16 @@ input[type="radio"] {
 
 .bold {
   font-weight: bold;
+}
+
+b.title {
+  font-size: 36px;
+}
+
+a.nav-link {
+  font-size: 24px;
+}
+
+a.navbar-brand {
+  font-size: 28px;
 }
