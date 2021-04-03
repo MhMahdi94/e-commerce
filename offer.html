@@ -5,6 +5,27 @@
         <link rel="stylesheet" href="css/bootstrap-grid.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
+
+
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                
+                
+            });
+        </script>
+
+        <script>
+            function getCourse(){
+                var course=document.getElementById("myCourse").value;
+                if(course !== "Web Development Full Stack")
+                    alert('there is no item matches');
+                console.log(course);
+            }
+        </script>
     </head>
     <body>
 
@@ -50,7 +71,7 @@
                         <fieldset>
                           <div class="form-group">
                             <label >Course Name</label>
-                            <input type="text"  class="form-control" placeholder="Course Name">
+                            <input type="text"  id="myCourse" class="form-control" placeholder="Course Name">
                           </div>
                           <div class="form-group">
                             <label>Course menu</label>
@@ -66,12 +87,12 @@
                             <select class="form-control">
                               <option>King Abd-Alaziz University</option>
                               <option>Princess Noura bint Abdulrahman University</option>
-                              <option>King Fahad University</option>
+                              <option>King Khalid University</option>
                               <option>Imam Abdulrahman Bin Faisal University</option>
                               <option>King Saud University</option>
                             </select>
                           </div>
-                          <button type="submit" class="btn btn-primary">Search</button>
+                          <button type="submit" class="btn btn-primary" onclick="getCourse()">Search</button>
                         </fieldset>
                       </form>
                 </div>
@@ -95,10 +116,10 @@
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                        <h5 class="card-title">Web Development Full Stack</h5>
+                        <h5 class="card-title" id="web">Web Development Full Stack</h5>
                         <p class="card-text">HTML CSS JS Bootstrap ... etc</p>
                         <p class="card-text"><small class="text-muted">just 45$</small></p>
-                        <button class="btn btn-info">Enroll</button>
+                        <a href="pay.html" class="btn btn-primary" >Enroll</a>
                         </div>
                     </div>
                     </div>
@@ -112,9 +133,6 @@
 
 
         
-        <!-- jQuery first, then Tether, then Bootstrap JS. -->
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="js/bootstrap.min.js"></script>
+        
     </body>
 </html>

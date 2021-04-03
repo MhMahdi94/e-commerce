@@ -29,12 +29,17 @@ p.lead {
   font-style: italic;
 }
 
+.alert {
+  display: none;
+}
+
 p.intro {
   font-size: 24px;
 }
 
 div.logo {
   margin-top: 35px;
+  width: 100%;
 }
 
 div.sign-btn {
@@ -51,7 +56,7 @@ div.sign-window {
 }
 
 div.style-header {
-  background-color: #0275d8;
+  background-color: #292b2c;
   color: white;
 }
 
@@ -67,8 +72,8 @@ div.footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #0275d8;
-  color: #0275d8;
+  background-color: #292b2c;
+  color: #292b2c;
   text-align: center;
 }
 
